@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* O segredo está no 'fixed' e na altura mínima */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                url('img/fundo.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* Mantém o fundo parado ao rolar */
+    min-height: 100vh; /* Ocupa 100% da altura da visualização */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ajuste para os textos aparecerem bem */
+}
+
+header {
+    order: -1; 
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    width: 100%;
+    background-color: var(--primary-color);
+    box-sizing: border-box;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    color: #355885;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    font-size: 18px; 
+    font-family: "Aclonica", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text-light);
+    display: block;
+    padding: 5px 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--hover-color);
+    transform: translateY(-2px); 
+}
+
+
+h1 {
+    width: 500px;
+    height: 150px;
+    background-color: #b0cf96;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 50px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.formulario {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(142, 168, 85);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.formulario h2 {
+    margin-left: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+input {
+    width: 400px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 5px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.inputCultura select {
+    width: 400px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 5px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+button {
+    background-color: #6d8550;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    margin-left: 30px;
+    
+}
+

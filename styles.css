@@ -17,9 +17,19 @@ body {
     justify-content: center;
     color: white; /* Ajuste para os textos aparecerem bem */
 }
+
+
+
 h1 {
-    color: #b0af70;
-    font-family: 'Arial', sans-serif;
+    width: 600px;
+    height: 150px;
+    background-color: #7da062;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 50px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin-top: 20px;
 }
@@ -34,7 +44,7 @@ img {
 }
 
 button {
-    background-color: #c6b578;
+    background-color: #a6c48f;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -45,6 +55,12 @@ button {
     width: 300px;
     height: 50px;
 }
+
+.button a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .container {
     width: 400px;

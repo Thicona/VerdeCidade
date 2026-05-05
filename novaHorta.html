@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="novaHorta.css">
+</head>
+<body>
+
+     
+    <h1>Nova Horta</h1>
+
+   
+<div class="formulario"> 
+    <h2>Nome do Produto</h2>
+    <input type="text" id="nome" placeholder="Nome do Produto">
+    <h2>Tipo de Cultura</h2>
+    <div class="inputCultura">
+        <select id="novaHorta" aria-placeholder="">
+            <option value="Folhasos">Folhosas</option>
+            <option value="Temperos">Temperos</option>
+            <option value="Raizes">Raízes</option>
+        </select>
+    </div>
+    <br>
+    <h2>Área do Canteiro</h2>
+    <input type="text" id="metros" placeholder="Área do Canteiro">
+    <br>
+    <h2>Data do Plantio</h2>
+    <input type="date" id="dataPlantio" placeholder="Data do Plantio">
+    <br>
+    <button onclick="AdicionarHorta()">Adicionar</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
