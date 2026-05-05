@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* O segredo está no 'fixed' e na altura mínima */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                url('img/fundo.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* Mantém o fundo parado ao rolar */
+    min-height: 100vh; /* Ocupa 100% da altura da visualização */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ajuste para os textos aparecerem bem */
+}
+h1 {
+    color: #b0af70;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    
+}
+
+button {
+    background-color: #c6b578;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    margin: 80px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
